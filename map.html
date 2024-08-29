@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <link rel="icon" type="image/x-icon" href="assets/img/logo1.ico">
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>kappacraft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" media='screen' href="assets/css/main.css?v46">
+  <link rel="stylesheet" href="assets/css/white-theme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" s>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/adaptive.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css?v1" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <section class="first-section white-theme bg">
+    <header>
+      <nav id="mainNav" class="white-theme">
+        <div class="nav-container">
+          <button class="burger-menu" data-bs-toggle="modal" data-bs-target="#burgerModal">
+            <i class="fas fa-bars white-theme"></i>
+          </button>
+          <div class="logo">
+            <img src="assets/img/kappacraft-logo.png" alt="Логотип" width="45" height="auto">
+          </div>
+          <ul class="menu">
+            <li><a href="./index.html" class="menu-main" onclick="startLoadingAnimation()">Главная</a></li>
+            <li><a class="white-theme" href="#О-сервере" onclick="scrollToInfo()">О сервере</a></li>
+            <li><a class="white-theme" target="_blank" style="cursor: pointer;"
+                href="https://theannley.notion.site/KappaCraft-e315f6e9987e471fbf88cf14eecb97b4?pvs=4">Правила</a></li>
+            <li><a class="white-theme" target="_blank" style="cursor: pointer;" href="./map.html">Карта</a></li>
+          </ul>
+          <button class="theme-button" onclick="toggleWhiteTheme()">
+            <div class="theme-btn-container white-theme">
+              <i class="fa-regular fa-sun white-theme"></i>
+              <i class="fa-regular fa-moon white-theme"></i>
+            </div>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="modal fade" id="burgerModal" tabindex="-1" aria-labelledby="burgerModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content white-theme">
+          <div class="modal-body">
+            <div class="burger-menu-links">
+              <ul class="burger-menu-content white-theme">
+                <li><i class="fa-solid fa-scale-balanced"></i><a class="white-theme"
+                    href="https://theannley.notion.site/KappaCraft-e315f6e9987e471fbf88cf14eecb97b4?pvs=4"
+                    target="_blank" onclick="startLoadingAnimation()">Правила</a></li>
+                <li><i class="fa-solid fa-book-bookmark"></i><a class="white-theme" href="#!" target="_blank"
+                    onclick="startLoadingAnimation()">О сервере</a></li>
+                <li class="main-li"><i class="fa-solid fa-house"></i><a href="./index.html"
+                    class="menu-main white-theme" onclick="startLoadingAnimation()">Главная</a></li>
+                <li><i class="fa-solid fa-book-open"></i><a class="white-theme" href="#"
+                    onclick="startLoadingAnimation()">Карта</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-main">
+        <h2 class="important-text hero-title">Карта сервера</h2>
+        <div class="hero-description">
+          <p class="white-theme">Для более удобной игры была создана карта сервера, на которой вы можете увидеть
+            множество
+            мест для лутания данжей или даже найти подходящее место для вашей базы!</p>
+        </div>
+        <div class="hero-body">
+          <iframe class="hero-map" src="https://maps.shield.land/seasons#seasons;flat;0,64,-4;0">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="privacy-bottom white-theme">
+    <div class="copyright-container">
+      <div class="main-content">
+        <div class="bozon-copyright white-theme"><span class="logo-copyright">&nbsp;</span>
+          <p>&copy; 2023-2024 <b class="name_logo white-theme">KappaCraft</b></p>
+        </div>
+        <div class="bozon-copyright white-theme">
+          <p class="notofferta white-theme">Размещенная на сайте информация - не является публичной офертой. Forked from
+            <a href="https://github.com/Timoti11/BOZON-site-last" target="_blank">bozon.site</a>. Thanks!
+          </p>
+        </div>
+        <div class="bozon-copyright white-theme">We are in no way affiliated with or endorsed by Mojang Synergies AB,
+          Microsoft Corporation or other rightsholders.</div>
+      </div>
+    </div>
+    <div class="social-content white-theme">
+      <ul class="social-list">
+        <li><a href="https://ds.kappacraft.xyz/" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+      </ul>
+    </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/main.js?v153"></script>
+  <script src="assets/js/cpn.js?v153"></script>
+</body>
+
+</html>

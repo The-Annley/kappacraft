@@ -1,21 +1,21 @@
-.white-theme.active{
-    color: #212529 !important;
+.white-theme.active {
+  color: #212529 !important;
 }
 
 .white-theme.active {
-    transition: background-color 0.2s ease-in-out !important;
+  transition: background-color 0.2s ease-in-out !important;
 }
 
 .white-theme {
-    transition: background-color 0.2s ease-in-out !important;
+  transition: background-color 0.2s ease-in-out !important;
 }
 
 .divide-section2.white-theme.active {
- background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .rjdesc.white-theme.active {
-    color: #473b34 !important;
+  color: #473b34 !important;
 }
 
 .buy-section.white-theme.active {
@@ -23,162 +23,173 @@
 }
 
 .buy-default.white-theme.active {
-    background-color: #3d3d3d;
+  background-color: #3d3d3d;
 }
 
 .buy-flexer.white-theme.active {
-    background-color: #ffa200;;
+  background-color: #ffa200;
 }
 
 .fa-bars.white-theme.active {
-    color: #ff8f25 !important;
+  color: #ff8f25 !important;
 }
 
 .block-information.white-theme.white-theme.active {
-    background: radial-gradient(ellipse at bottom, #ff853f65, #ffffff) !important;
+  background: radial-gradient(ellipse at bottom, #ff853f65, #ffffff) !important;
 
 }
+
 #text-content-2 h2.useradmin.white-theme.active {
-    background: linear-gradient(to top, rgb(3, 170, 17), rgb(0, 250, 0)) !important;
-    -webkit-background-clip: text !important;
-    color: transparent !important;
+  background: linear-gradient(to top, rgb(3, 170, 17), rgb(0, 250, 0)) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
 }
 
-.first-section.white-theme.bg.active{
-    background: radial-gradient(ellipse at bottom, #ff963a33 0%, #ffffff 100%);
+.first-section.white-theme.bg.active {
+  background: radial-gradient(ellipse at bottom, #b03aff33 0%, #ffffff 100%);
 }
 
-.second-section.white-theme.bg.active{
-    background-color:  #ffffff !important;
+.second-section.white-theme.bg.active {
+  background-color: #ffffff !important;
 }
 
 #mainNav.scrolled.white-theme.active {
-    background-color: #ffffff50 !important;
-    border-bottom: 1px solid rgb(204, 204, 204);;
+  background-color: #ffffff50 !important;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  ;
 }
 
 .screen-section.white-theme.active {
-    background-color: #fff !important;
+  background-color: #fff !important;
 }
+
 #mainNav.at-top .white-theme.active {
-    background-color: #ffffff00 !important;
+  background-color: #ffffff00 !important;
 }
 
 .left-container.white-theme.active.slide-one {
-    background: radial-gradient(ellipse at bottom, rgb(255, 116, 116) 0%, #e0e0e0 100%);
+  background: radial-gradient(ellipse at bottom, rgb(255, 116, 116) 0%, #e0e0e0 100%);
 }
 
 .left-container.white-theme.active p {
-    color:#16191b;
+  color: #16191b;
 }
 
 .left-container.white-theme.active.slide-two {
-    background: radial-gradient(ellipse at bottom, rgb(170, 255, 144) 0%, #e0e0e0 100%);
+  background: radial-gradient(ellipse at bottom, rgb(170, 255, 144) 0%, #e0e0e0 100%);
 }
 
 .left-container.white-theme.active.slide-three {
-    background: radial-gradient(ellipse at bottom, rgb(255, 170, 90) 0%, #e0e0e0 100%);
+  background: radial-gradient(ellipse at bottom, rgb(255, 170, 90) 0%, #e0e0e0 100%);
+}
+
+.left-container.white-theme.active.slide-four {
+  background: radial-gradient(ellipse at bottom, rgb(90, 107, 255) 0%, #e0e0e0 100%);
 }
 
 .privacy-bottom.white-theme.active {
-    background-color: #c7c7c7;
+  background-color: #c7c7c7;
 }
 
 .social-block-section.white-theme.active {
-    background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
+
 .bozon-copyright.white-theme.active {
-    color: #212529 !important;
+  color: #212529 !important;
 }
 
 .notofferta.white-theme.active {
-    color: #16191b !important;
+  color: #16191b !important;
 }
 
 .name_logo.white-theme.active {
-    color: rgb(255, 137, 52) !important;
+  color: rgb(255, 137, 52) !important;
 }
 
 
 .loader-wrapper.white-theme.active {
-    background-color: #e0e0e07c !important;
+  background-color: #e0e0e07c !important;
 
 }
 
-.buy-flexer.white-theme.active h1, .buy-flexer.white-theme.active i {
-    background: none;
-    color: #fff;
+.buy-flexer.white-theme.active h1,
+.buy-flexer.white-theme.active i {
+  background: none;
+  color: #fff;
 }
 
-.buy-default.white-theme.active h1, .buy-default.white-theme.active i {
-    background: none;
-    color: #fff;
+.buy-default.white-theme.active h1,
+.buy-default.white-theme.active i {
+  background: none;
+  color: #fff;
 }
 
 .buy-flexer.white-theme.active button {
-    background: none;
-    background-color: #ffffffd2;
-    color: black;
+  background: none;
+  background-color: #ffffffd2;
+  color: black;
 }
 
 .buy-default.white-theme.active button {
-    background: none;
-    background-color: #ffffffd2;
-    color: black;
+  background: none;
+  background-color: #ffffffd2;
+  color: black;
 }
 
 .social-content.white-theme.active i {
-    color: #2e3133;
+  color: #2e3133;
 }
 
 
 .theme-btn-container.white-theme.active {
-    background-color: #d3d3d394 !important;
+  background-color: #d3d3d394 !important;
 }
 
 .white-theme.active.fa-sun {
-    background-color: #ff8f25 !important;
-    border-radius: 12px;
+  background-color: #ff8f25 !important;
+  border-radius: 12px;
 }
 
 .white-theme.active.fa-moon {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #mainNav.at-top.white-theme.active .theme-btn-container.white-theme.active {
-    background-color: #d3d3d394 !important;
+  background-color: #d3d3d394 !important;
 }
 
 #mainNav.at-top.white-theme.active .white-theme.active.fa-sun {
-    background-color: #ff8f25 !important;
+  background-color: #ff8f25 !important;
 }
 
 .fa-bars:before.white-theme.active {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 #burgerModal .modal-content.white-theme.active {
-    background-color: white !important;
+  background-color: white !important;
 }
 
-.main-li .menu-main.white-theme.active{
-    color: #212529 !important;
-    font-weight: 600;
+.main-li .menu-main.white-theme.active {
+  color: #212529 !important;
+  font-weight: 600;
 }
 
-.burger-menu-content.white-theme.active i{
-    color: #212529;
+.burger-menu-content.white-theme.active i {
+  color: #212529;
 }
 
-.beta-feature.white-theme.active, .soon-feature.white-theme.active  {   
-    background-color: rgba(255, 166, 0, 0.7);
-    border-color: rgba(0, 0, 0, 0.418);
+.beta-feature.white-theme.active,
+.soon-feature.white-theme.active {
+  background-color: rgba(255, 166, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.418);
 }
 
 #burgerModal .modal-footer.white-theme.active {
-    border-top: rgba(0, 0, 0, 0.39) 1px solid !important;
+  border-top: rgba(0, 0, 0, 0.39) 1px solid !important;
 }
 
 #burgerModal .modal-content.white-theme.active {
-    border: 1px solid rgba(0, 0, 0, 0.37) !important;
+  border: 1px solid rgba(0, 0, 0, 0.37) !important;
 }
