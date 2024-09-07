@@ -47,9 +47,9 @@
           </div>
           <ul class="menu">
             <li><a href="./index.html" class="menu-main" onclick="startLoadingAnimation()">Главная</a></li>
-            <li><a class="white-theme" href="./about-server.html" onclick="scrollToInfo()">О сервере</a></li>
-            <li><a class="white-theme" style="cursor: pointer;" href="./rules.html">Правила</a></li>
-            <li><a class="white-theme" style="cursor: pointer;" href="#">Карта</a></li>
+            <li><a class="white-theme" href="#" onclick="scrollToInfo()">О сервере</a></li>
+            <li><a class="white-theme" target="_blank" style="cursor: pointer;" href="./rules.html">Правила</a></li>
+            <li><a class="white-theme" target="_blank" style="cursor: pointer;" href="./map.html">Карта</a></li>
           </ul>
           <button class="theme-button" onclick="toggleWhiteTheme()">
             <div class="theme-btn-container white-theme">
@@ -68,11 +68,11 @@
               <ul class="burger-menu-content white-theme">
                 <li><i class="fa-solid fa-scale-balanced"></i><a class="white-theme" href="./rules.html"
                     onclick="startLoadingAnimation()">Правила</a></li>
-                <li><i class="fa-solid fa-book-bookmark"></i><a class="white-theme" href="./about-server.html"
+                <li><i class="fa-solid fa-book-bookmark"></i><a class="white-theme" href="#"
                     onclick="startLoadingAnimation()">О сервере</a></li>
                 <li class="main-li"><i class="fa-solid fa-house"></i><a href="./index.html"
                     class="menu-main white-theme" onclick="startLoadingAnimation()">Главная</a></li>
-                <li><i class="fa-solid fa-book-open"></i><a class="white-theme" href="#"
+                <li><i class="fa-solid fa-book-open"></i><a class="white-theme" href="./map.html"
                     onclick="startLoadingAnimation()">Карта</a></li>
               </ul>
             </div>
@@ -80,17 +80,14 @@
         </div>
       </div>
     </div>
-    <div class="hero">
-      <div class="hero-main">
-        <h2 class="important-text hero-title">Карта сервера</h2>
+    <div class="about-server container">
+      <div class="about-server-main">
+        <h2 class="important-text about-server-title">О сервере</h2>
         <div class="hero-description">
-          <p class="white-theme">Для более удобной игры была создана карта сервера, на которой вы можете увидеть
-            множество
-            мест для лутания данжей или даже найти подходящее место для вашей базы!</p>
-        </div>
-        <div class="hero-body">
-          <iframe class="hero-map" src="https://maps.shield.land/seasons#seasons;flat;0,64,-4;0">
-          </iframe>
+          <img src="./assets/img/pc-cats.webp" alt="Cats">
+          <h3 class="white-theme">1-ый сезон KappaCraft</h3>
+          <img src="./assets/img/pc-cats.webp" alt="Cats">
+          <h3 class="white-theme">2-ой сезон KappaCraft</h3>
         </div>
       </div>
     </div>

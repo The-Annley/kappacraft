@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <link rel="icon" type="image/x-icon" href="assets/img/logo1.ico">
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>kappacraft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" media='screen' href="assets/css/main.css?v46">
+  <link rel="stylesheet" href="assets/css/white-theme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" s>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/adaptive.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css?v1" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="loader-wrapper white-theme" id="loaderWrapper">
+    <img src="assets/img/load.gif" alt="Loading..." class="loader-gif">
+  </div>
+  <section class="first-section white-theme bg">
+    <header>
+      <nav id="mainNav" class="white-theme">
+        <div class="nav-container">
+          <button class="burger-menu" data-bs-toggle="modal" data-bs-target="#burgerModal">
+            <i class="fas fa-bars white-theme"></i>
+          </button>
+          <div class="logo">
+            <img src="assets/img/kappacraft-logo.png" alt="Логотип" width="45" height="auto">
+          </div>
+          <ul class="menu">
+            <li><a href="./index.html" class="menu-main" onclick="startLoadingAnimation()">Главная</a></li>
+            <li><a class="white-theme" href="./about-server.html" onclick="scrollToInfo()">О сервере</a></li>
+            <li><a class="white-theme" style="cursor: pointer;" href="#">Правила</a></li>
+            <li><a class="white-theme" target="_blank" style="cursor: pointer;" href="./map.html">Карта</a></li>
+          </ul>
+          <button class="theme-button" onclick="toggleWhiteTheme()">
+            <div class="theme-btn-container white-theme">
+              <i class="fa-regular fa-sun white-theme"></i>
+              <i class="fa-regular fa-moon white-theme"></i>
+            </div>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="modal fade" id="burgerModal" tabindex="-1" aria-labelledby="burgerModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content white-theme">
+          <div class="modal-body">
+            <div class="burger-menu-links">
+              <ul class="burger-menu-content white-theme">
+                <li><i class="fa-solid fa-scale-balanced"></i><a class="white-theme" href="#"
+                    onclick="startLoadingAnimation()">Правила</a></li>
+                <li><i class="fa-solid fa-book-bookmark"></i><a class="white-theme" href="./about-server.html"
+                    onclick="startLoadingAnimation()">О сервере</a></li>
+                <li class="main-li"><i class="fa-solid fa-house"></i><a href="./index.html"
+                    class="menu-main white-theme" onclick="startLoadingAnimation()">Главная</a></li>
+                <li><i class="fa-solid fa-book-open"></i><a class="white-theme" href="./map.html"
+                    onclick="startLoadingAnimation()">Карта</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rules">
+      <div class="rules-main container">
+        <h2 class="important-text rules-title">Правила</h2>
+        <div class="rules-body">
+          <h3 class="white-theme rules-text">Общие положения</h3>
+          <p class="white-theme rules-first">
+            1.1 Зайдя на сервер, Вы автоматически соглашаетесь со всеми нижеперечисленными пунктами правил. Незнание
+            этих правил не освободит вас от наказания. <br>
+            1.1.1 Правила могут быть изменены в любой момент без уведомления игроков. <br>
+            1.2 Администрация не компенсирует игровые ресурсы, утраченные по причине вашей ошибки, серверных лагов,
+            багов игры или контактом с нарушителями, однако вы можете запросить возврат в тикетах - он будет рассмотрен
+            индивидуально для каждого случая. <br>
+            1.3 Запрещено выдавать себя за Администратора или Модератора. <br>
+            1.4 Запрещено введение администрации в заблуждение. <br>
+            1.5 Войс-чат, локальный и глобальный чаты игры, а так же чаты дискорда = одно целое. <br>
+            1.6 Запрещено нарушение законодательства РФ и РБ, а также ToS дискорда. <br>
+            1.7 Вся территория в радиусе 500 блоков от 0 ~ 0 является общественной. <br>1.1 Зайдя на сервер, Вы
+            автоматически соглашаетесь со всеми нижеперечисленными пунктами правил. Незнание
+            этих правил не освободит вас от наказания. <br>
+            1.1.1 Правила могут быть изменены в любой момент без уведомления игроков. <br>
+            1.2 Администрация не компенсирует игровые ресурсы, утраченные по причине вашей ошибки, серверных лагов,
+            багов игры или контактом с нарушителями, однако вы можете запросить возврат в тикетах - он будет рассмотрен
+            индивидуально для каждого случая. <br>
+            1.3 Запрещено выдавать себя за Администратора или Модератора. <br>
+            1.4 Запрещено введение администрации в заблуждение. <br>
+            1.5 Войс-чат, локальный и глобальный чаты игры, а так же чаты дискорда = одно целое. <br>
+            1.6 Запрещено нарушение законодательства РФ и РБ, а также ToS дискорда. <br>
+            1.7 Вся территория в радиусе 500 блоков от 0 ~ 0 является общественной. <br>
+          </p>
+          <h3 class="white-theme rules-text">Общение в чате</h3>
+          <p class="white-theme rules-second">
+            2.1 Запрещен флуд. <br>
+            2.1.2 Флуд и спам ныне имеют схожее значение, а из этого следует, что однотипные сообщения отправленные за
+            короткий промежуток времени или сообщения вроде <span
+              style="text-decoration: underline;">"АХАХАХАХАХАХАХХАХАХАХАХАХ"</span> или "У него такая
+            <span style="text-decoration: underline;">БООООООООООООООООЛЬШАЯ</span> <span
+              style="text-decoration: line-through;">елда</span> база" наказуемы. <br>
+            2.1.3 Флудом не будут считаться сообщения вроде "Ахахвхп" или бессмысленные сообщения вроде "емае а как там
+            пасеки". <br>
+            2.1.4 В войс-чате запрещено использовать соундпад для создания помех или флуда хуйней. <br>
+            2.2 Запрещены оскорбления других игроков. <br>
+            2.3 Запрещено оскорбление родных. <br>
+            2.3.1 Некорректное упоминание вроде "Твоя мама под забором отрабатывала твою проходку" или "Брату твоему,
+            наркоману, за дозу давал на клыка" может быть рассчитано как оскорбление. <br>
+            2.4 Оскорбление администрации не запрещено. <br>
+            2.4.1 Оскорбление администрации не запрещено, однако за это получить наказание можно. <br>
+            2.4.2 Вы можете сказать что "Админ хуесос тупой" если админ действительно хуесос тупой. На оскорбление
+            администратора должна быть причина, а если причины нет, то оскорблять не стоит. <br>
+            2.4.3 Причины вроде "ну он же реально такой", "мне кто-то сказал что он тот-то" и подобные причинами не
+            считаются. <br>
+            2.5 Запрещена реклама сторонних проектов. <br>
+            2.6 Запрещена провокация других игроков. <br>
+            2.6.1 При провокации спровоцировавший получит наказание в 2 раза выше предусмотренного наказания за то, на
+            что он спровоцировал. В определенных случаях могут быть наказания вне рамок. <br>
+            2.6.2 Пункт 2.6 касается любых взаимодействий игроков, в том числе и взаимодействий вне игры. <br>
+            2.7 Запрещен розжиг любой розни. <br>
+            2.8 Запрещены шантаж, клевета, преследование по любому из признаков, и токсичное поведение. <br>
+            2.9 Запрещено вести себя аморально. <br>
+            2.10 Чрезмерное использование нецензурной лексики не приветствуется. <br>
+            2.11 Запрещена реклама. <br>
+            2.12 см. пункт 3.10 <br>
+          </p>
+          <h3 class="white-theme rules-text">Внутриигровое поведение</h3>
+          <p class="white-theme rules-third">
+            3.1 Запрещен гриф. <br>
+            3.1.2 Грифом считаются: Убийство на спавне, убийство без причины, убийство при обстоятельствах описанных в
+            3.2.2 без возврата ресурсов, повреждение чужих построек любым методом, порча чужой территории, агр мобов на
+            других, призыв рейда в чужих деревнях или на чужой территории, воровство и т.п. Все описать не получится.
+            <br>
+            3.2 Запрещено убийство без причины. <br>
+            3.2.1 На убийство должна быть веская причина. Что-то вроде "Он мне мешал" не канает. <br>
+            3.2.2 Если вас убили по причине того, что вы не уходили с территории во владении убившего вас игрока это не
+            будет рассматриваться как убийство без причины. Однако ему нужно вас предупредить о том, что ваше нахождение
+            на территории ныне запрещено(типа если он вас ебнет просто так без предупреждения - пишите жб). <br>
+            3.2.3 Вы не можете подставиться под удары игрока и умерев от него обвинить его в убийстве просто так. <br>
+            3.3 Запрещены читы, всякие читерские моды, афк-ххх моды/скрипты, а также ресурс-/текстур-паки. <br>
+            3.3.1 В случае подозрения на использование оных со стороны администрации - мы можем вызвать вас на проверку
+            и вы будете обязаны её пройти. <br>
+            3.3.2 Вызов происходит с помощью серверного функционала, следовательно сообщения в чатике вроде "го
+            проверку" можно игнорить. <br>
+            3.3.3 Администрация может вас вызвать по ряду причин, но отказ от проверки приравнивается к использованию.
+            Признание же скостит вам срок наказания. А если их не использовать, то вы ваще не получите его. <br>
+            3.4 Запрещены лаг-машины. <br>
+            3.4.1 Конструкции для вызова лагов у игроков тоже. <br>
+            3.5 Запрещено утаивать от админов, а также использовать всякие дюпы и баги. <br>
+            3.6 Запрещены скины с демонстрацией наготы или нацисткой символики. <br>
+            3.7 Запрещено создавать лавакасты и другими способами портить ландшафт. <br>
+            3.8 Игроки могут занять для себя территорию, оградив её например. <br>
+            3.8.1 Запрещено занимать чужую территорию. Хз зачем это объяснение, но вдруг кому это не ясно. <br>
+            3.8.2 В случае, если игрок создал закрытую территорию - он должен сообщить об этом на табличке. <br>
+            3.8.3 Запрещено указывать слишком большие штрафы или штрафы противоречащие остальным правилам. <br>
+            3.8.4 <span style="text-decoration: underline;">Рекомендация:</span> Если вы заметили игрока на вашей
+            закрытой территории - попросите его уйти, в случае если
+            он этого не сделает можете его убить. <br>
+            3.8.5 <span style="text-decoration: underline;">Вы можете</span> указать на табличке владения закрытой
+            территории оповещение о том, что при нахождении на
+            территории тем кому нельзя вы их убьете. <br>
+            3.8.6 Максимальный размер закрытой территории 300x300 блоков. <br>
+            3.8.7 Запрещено использовать закрытые территории или черные списки для того, чтобы воспрепятствовать
+            передвижению игроков. Типа отгородить территорий на много блоков и закрыть их = нельзя. <br>
+            3.9 Запрещены различные подставы игроков и злоупотребление правилами. <br>
+            3.10 Запрещено использование "запреток" твича. <br>
+          </p>
+          <h3 class="rules-text white-theme">Наказания за нарушения</h3>
+          <p class="white-theme rules-third">
+            Использование читов — изъятие вещей + Бан на 20 дней. Признание — Бан на 7 дней. <br>
+            Нарушение правил внутриигрового поведения — варн + бан от 1 часа до 30 дней/общественные работы. <br>
+            Общественные работы это мера наказания где вы добываете что-то на нужды спавна по заданию от
+            админа/судьи.<br>
+            Нарушения правил общения — Мут от 5 минут до 12 часов. <br>
+            <strong>Администратор вне правил и может наказывать вне правил и вне указанных сроков.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="privacy-bottom white-theme">
+    <div class="copyright-container">
+      <div class="main-content">
+        <div class="bozon-copyright white-theme"><span class="logo-copyright">&nbsp;</span>
+          <p>&copy; 2023-2024 <b class="name_logo white-theme">KappaCraft</b></p>
+        </div>
+        <div class="bozon-copyright white-theme">
+          <p class="notofferta white-theme">Размещенная на сайте информация - не является публичной офертой. Forked from
+            <a href="https://github.com/Timoti11/BOZON-site-last" target="_blank">bozon.site</a>. Thanks!
+          </p>
+        </div>
+        <div class="bozon-copyright white-theme">We are in no way affiliated with or endorsed by Mojang Synergies AB,
+          Microsoft Corporation or other rightsholders.</div>
+      </div>
+    </div>
+    <div class="social-content white-theme">
+      <ul class="social-list">
+        <li><a href="https://ds.kappacraft.xyz/" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+      </ul>
+    </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/main.js?v153"></script>
+  <script src="assets/js/cpn.js?v153"></script>
+</body>
+
+</html>

@@ -111,7 +111,6 @@ body {
   line-height: 1;
   font-size: 1.5vw;
   overflow-x: hidden !important;
-
 }
 
 ol,
@@ -2568,4 +2567,71 @@ select:-webkit-autofill:focus {
 .buy-default-button:hover {
   color: #fff;
   box-shadow: 0 0 20px 0px rgba(255, 156, 43, 0.049);
+}
+
+.rules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rules-title {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.rules-description {
+  margin-bottom: 30px;
+}
+
+.rules-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope";
+  color: #fff;
+  font-weight: 700;
+}
+
+.rules-text {
+  font-family: "Manrope";
+  font-weight: 700;
+  margin-top: .5rem;
+}
+
+.about-server {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-server-title {
+  font-family: "Manrope";
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.rules-description {
+  margin-bottom: 30px;
+}
+
+.about-server-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.about-server-main h3 {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }

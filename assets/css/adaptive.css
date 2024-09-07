@@ -616,6 +616,11 @@ ul.burger-menu-content {
   .hero-map {
     width: 550px;
   }
+
+  .about-server-main img {
+    width: 475px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -695,6 +700,11 @@ ul.burger-menu-content {
 
   .hero-description {
     font-size: 14px;
+  }
+
+  .about-server-main img {
+    width: 400px;
+    height: auto;
   }
 }
 
@@ -865,6 +875,11 @@ ul.burger-menu-content {
 
   .hero-title {
     font-size: 22px;
+  }
+
+  .about-server-main img {
+    width: 330px;
+    height: auto;
   }
 }
 
